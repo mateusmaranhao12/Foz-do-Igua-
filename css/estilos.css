@@ -1,0 +1,380 @@
+/*Layout*/
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(100deg, rgb(73, 76, 255), rgb(0, 2, 37)) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Navegação*/
+
+.navbar-foz{
+    background: linear-gradient(100deg, rgb(86, 159, 255), rgb(0, 2, 37)) ;
+    opacity: 0.8;
+    animation: transitions 1.1s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+#navegacao {
+    margin-right: 150px;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    transition: .3s;
+    color: turquoise;
+}
+
+body.inicial a#inicial,
+body.turismo a#turismo,
+body.ingressos a#ingressos {
+    color: turquoise;
+}
+
+.dropdown-menu {
+    background: rgb(179, 255, 247);
+}
+
+.dropdown-item{
+    color: navy;
+    font-weight: bold;
+}
+
+.dropdown-item:hover{
+    background: lightskyblue;
+    color: navy;
+}
+
+/*Caixa*/
+
+.caixa {
+    padding: 60px 0;
+}
+
+/*Capa*/
+
+#capa{
+    animation: transitions 1.1s;
+}
+
+/*Textos*/
+
+#textos{
+    background: white;
+    animation: transitions 1.1s;
+}
+
+#textos h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#textos p{
+    text-align: center;
+}
+
+/*Videos*/
+
+#videos{
+    animation: transitions 1.1s;
+}
+
+#videos h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+iframe {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+}
+
+/*Fotos*/
+
+#fotos {
+    background: linear-gradient(100deg, rgb(98, 153, 255), rgb(135, 207, 255)) ;
+    animation: transitions 1.1s;
+}
+
+#fotos h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+}
+
+/*Footer*/
+
+footer{
+    background: rgb(0, 0, 41) ;
+    animation: transitions 1.1s;
+}
+
+#footer1{
+    padding-top:20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#footer1 h3{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#footer2{
+    padding-top:20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#footer2 h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#footer2 h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(60, 184, 255)
+}
+
+#footer2 h4:hover{
+    color: rgb(255, 255, 255);
+}
+
+#footer3 h3{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Turismo*/
+
+#foz-turismo{
+    animation: transitions 1.1s;
+}
+
+#foz-turismo h4 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn-turismo {
+    background: rgb(0, 2, 112);
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-turismo:hover {
+    transform: scale(1.2);
+}
+
+/*Cataratas*/
+
+#cataratas {
+    background: white;
+    animation: transitions 1.1s;
+}
+
+#cataratas h1{
+    margin-bottom: 60px;
+    color: black;
+}
+
+#cataratas h2{
+    margin-bottom: 20px;
+    color: black;
+}
+
+/*Parque das Aves*/
+
+#parque-das-aves {
+    background: white;
+    animation: transitions 1.1s;
+}
+
+#parque-das-aves h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+/*Marco das 3 Fronteiras*/
+
+#fronteiras {
+    background: white;
+    animation: transitions 1.1s;
+}
+
+#fronteiras h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.img-fronteiras{
+    margin-top: 30px;
+}
+
+/*Ecomuseu de Itaipu*/
+
+#itaipu {
+    background: white;
+    animation: transitions 1.1s;
+}
+
+#itaipu h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.img-ecomuseu{
+    margin-top: 30px;
+}
+
+/*Formularios*/
+
+#formulario{
+    background: rgb(220, 244, 255);
+    animation: transitions 1.1s;
+}
+
+#formulario h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-enviar{
+    background: rgb(0, 17, 255);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-enviar:hover{
+    background: rgb(5, 0, 68);
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+/*Modal Reserva*/
+
+.bg-visita-sucesso-topo {
+    background: linear-gradient(100deg, rgb(7, 0, 99), rgb(0, 110, 255)) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.bg-visita-sucesso-footer {
+    background: linear-gradient(50deg, rgb(5, 0, 68), rgb(0, 89, 255)) ;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bg-visita-conteudo-sucesso {
+    color: rgb(0, 0, 0);
+}
+
+.btn-visita-sucesso {
+    background: rgb(0, 153, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-visita-sucesso:hover {
+    background: rgb(0, 4, 63);
+}
+
+.bg-visita-erro-topo {
+    background: linear-gradient(100deg, rgb(0, 238, 255), rgb(0, 162, 255)) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.bg-visita-erro-footer {
+    background: linear-gradient(150deg, rgb(0, 238, 255), rgb(0, 162, 255)) ;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bg-visita-conteudo-erro {
+    color: rgb(80, 0, 0);
+}
+
+.btn-visita-erro {
+    background: rgb(0, 140, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-visita-erro:hover {
+    background: rgb(0, 35, 88);
+}
+
+/*Animações*/
+
+@keyframes transitions{
+    from {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
